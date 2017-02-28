@@ -1,7 +1,7 @@
 var canvas = document.createElement('canvas');
 canvas.id = 'ZahlenfelderPlot';
 canvas.width = 120 * 20;
-canvas.height = 100 * 2 ;
+canvas.height = 120 * 2 ;
 document.querySelector('body').appendChild(canvas)
 // paste from http://www.html5canvastutorials.com/tutorials/html5-canvas-circles/
 // var canvas = document.getElementById('myCanvas');
@@ -12,7 +12,10 @@ for (var i = 0; i < 20; i ++) {
   if ((i % 10) > 9) {
     centerX += 10
   }
-  var centerY = i > 9 ? 100 : 0;
+  var centerY = 50;
+  if (i > 9) {
+    centerY += 110
+  }
   var radius = 40;
 
   context.beginPath();
