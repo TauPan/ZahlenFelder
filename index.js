@@ -14,11 +14,11 @@ function feld20er (num1, num2) {
   for (var i = 0; i < 20; i ++) {
     var centerX =  50 + (i % 10) * 100;
     if ((i % 10) > 4) {
-      centerX += 20
+      centerX += 20;
     }
     var centerY = 50;
     if (i > 9) {
-      centerY += 110
+      centerY += 110;
     }
     var radius = 40;
 
