@@ -40,6 +40,34 @@ function feld20er (num1, num2) {
   }
 }
 
-feld20er(5, 0);
-feld20er(9, 5);
-feld20er(13, 4);
+function rand(limit) {
+  return Math.floor(Math.random() * limit);
+}
+
+function feld20Zahl (num) {
+  if (! num) {
+    num = rand(21);
+  }
+  feld20er(num);
+};
+
+function feld20Plus (num1, num2) {
+  if (! num1) {
+    num1 = rand(21);
+  }
+
+  if (num1 < 20) {
+    num2 = num1 + rand(21 - num1);
+  };
+
+  feld20er(num1, num2);
+};
+
+
+for (var i = 0; i < 10; i++) {
+  feld20Zahl();
+};
+
+for (var i = 0; i < 10; i++) {
+  feld20Plus();
+};
