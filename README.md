@@ -7,3 +7,6 @@ TODO:
  - [ ] Benutzerinteraktion zum Auswählen von Zahlen
  - [ ] Verschiedene Aufgaben (Zahlenraum, Addition, Subtraktion)
  - [ ] Druckansicht (oder druckfreundliche Seite)
+
+<script src="index.js">
+</script>
