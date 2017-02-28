@@ -40,6 +40,8 @@ function feld20er (num1, num2) {
   }
 }
 
+document.body.innerHTML = '';
+
 function rand(limit) {
   return Math.floor(Math.random() * limit);
 }
