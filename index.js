@@ -1,5 +1,5 @@
-var canvas = document.createElement('p')
-canvas.id='myCanvas'
+var canvas = document.createElement('canvas')
+canvas.id='ZahlenfelderPlot'
 document.querySelector('body').appendChild(canvas)
 // paste from http://www.html5canvastutorials.com/tutorials/html5-canvas-circles/
 // var canvas = document.getElementById('myCanvas');
