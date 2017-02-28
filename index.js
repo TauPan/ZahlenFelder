@@ -1,7 +1,8 @@
 var canvas = document.createElement('p')
 canvas.id='myCanvas'
+document.querySelector('body').appendChild(canvas)
 // paste from http://www.html5canvastutorials.com/tutorials/html5-canvas-circles/
-var canvas = document.getElementById('myCanvas');
+// var canvas = document.getElementById('myCanvas');
 var context = canvas.getContext('2d');
 var centerX = canvas.width / 2;
 var centerY = canvas.height / 2;
