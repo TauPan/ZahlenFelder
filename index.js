@@ -1,5 +1,5 @@
 var canvas = document.createElement('p')
-canvas.id=('myCanvas')
+canvas.id='myCanvas'
 // paste from http://www.html5canvastutorials.com/tutorials/html5-canvas-circles/
 var canvas = document.getElementById('myCanvas');
 var context = canvas.getContext('2d');
