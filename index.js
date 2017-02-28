@@ -8,7 +8,7 @@ document.querySelector('body').appendChild(canvas)
 var context = canvas.getContext('2d');
 
 for (var i = 0; i < 20; i ++) {
-  var centerX =  (i % 10) * 100;
+  var centerX =  50 + (i % 10) * 100;
   if ((i % 10) > 9) {
     centerX += 10
   }
