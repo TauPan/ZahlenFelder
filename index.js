@@ -26,12 +26,11 @@ function feld20er (canvas, num1, num2) {
     context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
     if (i < num1) {
       context.fillStyle = colors[0];
+      context.fill();
     } else if (i < num1 + num2) {
       context.fillStyle = colors[1];
-    } else {
-      context.fillStyle = null;
+      context.fill();
     }
-    context.fill();
     context.lineWidth = 5;
     context.strokeStyle = '#003300';
     context.stroke();
