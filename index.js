@@ -1,14 +1,14 @@
-var canvas = document.createElement('canvas');
-canvas.id = 'ZahlenfelderPlot';
-canvas.width = 120 * 21;
-canvas.height = 120 * 2 ;
-document.querySelector('body').appendChild(canvas)
-// paste from http://www.html5canvastutorials.com/tutorials/html5-canvas-circles/
-// var canvas = document.getElementById('myCanvas');
-
 var colors = ["blue", "red"];
 
-function feld20er (canvas, num1, num2) {
+function feld20er (num1, num2) {
+  // started with paste from
+  // http://www.html5canvastutorials.com/tutorials/html5-canvas-circles/
+  var canvas = document.createElement('canvas');
+  canvas.id = 'ZahlenfelderPlot';
+  canvas.width = 120 * 21;
+  canvas.height = 120 * 2 ;
+  document.querySelector('body').appendChild(canvas);
+  // var canvas = document.getElementById('myCanvas');
   var context = canvas.getContext('2d');
 
   for (var i = 0; i < 20; i ++) {
@@ -37,4 +37,6 @@ function feld20er (canvas, num1, num2) {
   }
 }
 
-feld20er(canvas, 13, 4);
+feld20er(5, 0);
+feld20er(9, 5);
+feld20er(13, 4);
