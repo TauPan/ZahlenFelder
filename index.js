@@ -5,7 +5,7 @@ function feld20er (num1, num2) {
   // http://www.html5canvastutorials.com/tutorials/html5-canvas-circles/
   var canvas = document.createElement('canvas');
   canvas.id = 'ZahlenfelderPlot' + num1 + num2;
-  var space =  window.outerWidth / 21;
+  var space =  window.outerWidth / 11;
   var step = space / 12;
   var radius = step * 4;
   var distance = step * 5;
