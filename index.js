@@ -12,6 +12,7 @@ function feld20er (num1, num2) {
   canvas.width = window.outerWidth;
   canvas.height = space * 2 ;
   document.querySelector('body').appendChild(document.createElement('p'));
+  document.querySelector('body').appendChild(document.createElement('hr'));
   document.querySelector('body').appendChild(canvas);
   // var canvas = document.getElementById('myCanvas');
   var context = canvas.getContext('2d');
