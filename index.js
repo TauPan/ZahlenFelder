@@ -7,7 +7,7 @@ function feld20er (num1, num2) {
   canvas.id = 'ZahlenfelderPlot' + num1 + num2;
   var space =  window.outerWidth / 11;
   var step = space / 12;
-  var radius = step * 4;
+  var radius = step * 4.5;
   var distance = step * 5;
   canvas.width = window.outerWidth;
   canvas.height = space * 2 ;
