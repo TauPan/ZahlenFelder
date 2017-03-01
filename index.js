@@ -55,21 +55,22 @@ function feld20Zahl (num) {
 
 function feld20Plus (num1, num2) {
   if (! num1) {
-    num1 = rand(21);
+    num1 = rand(10);
   }
 
   if (num1 < 20) {
-    num2 = num1 + rand(21 - num1);
+    num2 = num1 + rand(11);
   };
 
   feld20er(num1, num2);
 };
 
 
-for (var i = 0; i < 10; i++) {
-  feld20Zahl();
+for (var i = 0; i < 7; i++) {
+  var zahlen = [8, 9, 14, 11, 15, 17, 18];
+  feld20Zahl(zahlen[i]);
 };
 
-for (var i = 0; i < 10; i++) {
+for (var i = 0; i < 11; i++) {
   feld20Plus();
 };
