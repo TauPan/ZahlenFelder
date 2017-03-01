@@ -61,16 +61,17 @@ function feld20Plus (num1, num2) {
   }
 
   if (num1 < 20) {
-    num2 = num1 + rand(10) + 1;
+    to10 = (10 - num1);
+    to10to = (10 - to10);
+    num2 = num1 + to10 + rand(to10to);
   };
 
   feld20er(num1, num2);
 };
 
-
-for (var i = 1; i < 20; i++) {
-  feld20Zahl(i);
-};
+// for (var i = 1; i < 20; i++) {
+//   feld20Zahl(i);
+// };
 
 for (var i = 0; i < 18; i++) {
   feld20Plus();
