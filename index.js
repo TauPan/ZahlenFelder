@@ -1,10 +1,13 @@
 var colors = ["blue", "red"];
 
+var id = 0;
+
 function feld20er (num1, num2) {
   // started with paste from
   // http://www.html5canvastutorials.com/tutorials/html5-canvas-circles/
   var canvas = document.createElement('canvas');
-  canvas.id = 'ZahlenfelderPlot' + num1 + num2;
+  canvas.id = 'ZahlenfelderPlot' + id;
+  id += 1;
   var space =  window.outerWidth / 13;
   var step = space / 12;
   var radius = step * 4.5;
