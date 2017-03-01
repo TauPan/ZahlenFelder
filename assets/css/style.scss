@@ -1,0 +1,9 @@
+/* Hint from
+   https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
+   */
+@import "{{ site.theme }}";
+@page {
+    /* And hint from http://stackoverflow.com/a/21795173/565224 */
+    size: 297mm 210mm;
+    margin: 30mm 45mm 30mm 45mm; /* change the margins as you want them to be. */
+}
