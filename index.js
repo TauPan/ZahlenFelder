@@ -61,9 +61,9 @@ function feld20Plus (num1, num2) {
   }
 
   if (num1 < 20) {
-    to10 = (10 - num1);
-    to10to = (10 - to10);
-    num2 = num1 + to10 + rand(to10to);
+    var num1to10 = (10 - num1);
+    var num2to10 = (10 - num1to10);
+    num2 = num1 + num1to10 + rand(num2to10);
   };
 
   feld20er(num1, num2);
