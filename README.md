@@ -8,5 +8,5 @@ TODO:
 - [ ] Verschiedene Aufgaben (Zahlenraum, Addition, Subtraktion)
 - [x] Druckansicht (oder druckfreundliche Seite)
 
-<script src="index.js">
-</script>
+<script src="Zahlenfelder.js"></script>
+<script src="index.js"></script>
